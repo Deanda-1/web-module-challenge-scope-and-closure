@@ -61,6 +61,7 @@ You will be running your tests in one terminal and debugging in the other. As yo
 Edit the `ReadMe` file with your answers to the questions below.
 
 1. In your own words, define closure (1-2 sentences).
+  Closure is a function that calls back to the variable.
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -82,9 +83,12 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+  In the function above within the curly brackets.
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
-c. What is the lexical scope of `newRoll`? 
-
+  The number value of his roll count would change.
+c. What is the lexical scope of `newRoll`?
+  zoesRoll would be the new lexical scope of `newRoll`.
+  
 
 ### Task 3 - Stretch Goals
 
