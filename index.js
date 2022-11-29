@@ -30,11 +30,15 @@ console.log('example task:', processFirstItem(['foo','bar'],function(str){return
   Study the code for counter1 and counter2, then answer the questions below.
   
   1. What is the difference between counter1 and counter2?
-  
+        Counter1 connects the function callback to the main function. Counter2 uses a variable of 'count' to 
+        return a value that is incremented every time the counter is incremented.
   2. Which of the two uses a closure? How can you tell?
-  
+       The function (counterMaker) is the closure. The callback of counterMaker is given an 'const' value that responds to
+       the 'increment' function.
   3. In what scenario would the counter1 code be preferable? In what scenario would 
-     counter2 be better?  
+     counter2 be better?
+     Counter2 would be better as an function. Because, it is a function that allows an increment to b e preformed for an total value to be given.
+     Counter1 would be better as an closure. Because, this will have a value that doesn't answers the function.   
 */
 
 // counter1 code
